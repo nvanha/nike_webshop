@@ -9,38 +9,46 @@ import logo from "../assets/images/Logo-2.png";
 const footerAboutLinks = [
   {
     display: "Giới thiệu",
-    path: "/about",
+    // path: "/nobita_home_website/about",
+    path: "/nobita_home_website",
   },
   {
     display: "Liên hệ",
-    path: "/about",
+    // path: "/nobita_home_website/about",
+    path: "/nobita_home_website",
   },
   {
     display: "Tuyển dụng",
-    path: "/about",
+    // path: "/nobita_home_website/about",
+    path: "/nobita_home_website",
   },
   {
     display: "Tin tức",
-    path: "/about",
+    // path: "/nobita_home_website/about",
+    path: "/nobita_home_website",
   },
   {
     display: "Hệ thống cửa hàng",
-    path: "/about",
+    // path: "/nobita_home_website/about",
+    path: "/nobita_home_website",
   },
 ];
 
 const footerCustomerLinks = [
   {
     display: "Chính sách đổi trả",
-    path: "/about",
+    // path: "/nobita_home_website/about",
+    path: "/nobita_home_website",
   },
   {
     display: "Chính sách bảo hành",
-    path: "/about",
+    // path: "/nobita_home_website/about",
+    path: "/nobita_home_website",
   },
   {
     display: "Chính sách hoàn tiền",
-    path: "/about",
+    // path: "/nobita_home_website/about",
+    path: "/nobita_home_website",
   },
 ];
 
@@ -85,7 +93,7 @@ const Footer = () => {
           </div>
           <div className="footer__about">
             <p>
-              <Link to="/">
+              <Link to="/nobita_home_website">
                 <img src={logo} className="footer__logo" alt="" />
               </Link>
             </p>

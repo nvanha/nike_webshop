@@ -79,7 +79,8 @@ const HeroSliderItem = (props) => (
         <span>{props.item.description}</span>
       </div>
       <div className="hero-slider__item__info__btn">
-        <Link to={props.item.path}>
+        {/* <Link to={props.item.path}> */}
+        <Link to="nobita_home_website">
           <Button
             backgroundColor={props.item.color}
             icon="bx bx-cart"

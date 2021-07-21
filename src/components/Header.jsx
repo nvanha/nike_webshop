@@ -6,19 +6,23 @@ import logo from "../assets/images/Logo-2.png";
 const mainNav = [
   {
     display: "Trang chủ",
-    path: "/",
+    // path: "/",
+    path: "/nobita_home_website",
   },
   {
     display: "Sản phẩm",
-    path: "/catalog",
+    // path: "/catalog",
+    path: "/nobita_home_website",
   },
   {
     display: "Phụ kiện",
-    path: "/accessories",
+    // path: "/accessories",
+    path: "/nobita_home_website",
   },
   {
     display: "Liên hệ",
-    path: "/contact",
+    // path: "/contact",
+    path: "/nobita_home_website",
   },
 ];
 
@@ -83,7 +87,8 @@ const Header = () => {
               <i className="bx bx-search"></i>
             </div>
             <div className="header__menu__item header__menu__right__item">
-              <Link to="/cart">
+              {/* <Link to="/cart"> */}
+              <Link to="/nobita_home_website">
                 <i className="bx bx-shopping-bag"></i>
               </Link>
             </div>

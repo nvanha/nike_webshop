@@ -32,7 +32,8 @@ const Home = () => {
         <SectionBody>
           <Grid col={4} mdCol={2} smCol={1} gap={20}>
             {policy.map((item, index) => (
-              <Link key={index} to="/policy">
+              // <Link key={index} to="/nobita_home_website/policy">
+              <Link key={index} to="/nobita_home_website">
                 <PolicyCard
                   name={item.name}
                   description={item.description}
@@ -68,7 +69,8 @@ const Home = () => {
       {/* banner */}
       <Section>
         <SectionBody>
-          <Link to="/catalog">
+          {/* <Link to="/nobita_home_website/catalog"> */}
+          <Link to="/nobita_home_website">
             <img src={banner} alt="" />
           </Link>
         </SectionBody>

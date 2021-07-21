@@ -10,7 +10,8 @@ import numberWithCommas from "../utils/numberWithCommas";
 const ProductCard = (props) => {
   return (
     <div className="product-card">
-      <Link to={`/catalog/${props.slug}`}>
+      {/* <Link to={`/catalog/${props.slug}`}> */}
+      <Link to="nobita_home_website">
         <div className="product-card__image">
           <img src={props.img01} alt={props.name} />
           <img src={props.img02} alt={props.name} />
