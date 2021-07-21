@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/nike_webshop/static/css/main.ef5cd9ee.chunk.css",
-    "main.js": "/nike_webshop/static/js/main.056e64b3.chunk.js",
-    "main.js.map": "/nike_webshop/static/js/main.056e64b3.chunk.js.map",
+    "main.js": "/nike_webshop/static/js/main.61fac286.chunk.js",
+    "main.js.map": "/nike_webshop/static/js/main.61fac286.chunk.js.map",
     "runtime-main.js": "/nike_webshop/static/js/runtime-main.a8b51def.js",
     "runtime-main.js.map": "/nike_webshop/static/js/runtime-main.a8b51def.js.map",
     "static/js/2.18c1d9cb.chunk.js": "/nike_webshop/static/js/2.18c1d9cb.chunk.js",
@@ -49,6 +49,6 @@
     "static/js/runtime-main.a8b51def.js",
     "static/js/2.18c1d9cb.chunk.js",
     "static/css/main.ef5cd9ee.chunk.css",
-    "static/js/main.056e64b3.chunk.js"
+    "static/js/main.61fac286.chunk.js"
   ]
 }
