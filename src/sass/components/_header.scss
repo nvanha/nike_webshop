@@ -34,8 +34,18 @@
   &__logo {
     @include flex(center, center);
     position: absolute;
-    inset: 0;
+    height: 100%;
+    width: 100%;
+    margin-left: -50px;
     pointer-events: none;
+
+    @include tablet {
+      margin-left: -20px;
+    }
+
+    @include mobile {
+      margin-left: -10px;
+    }
 
     img {
       height: 28px;
