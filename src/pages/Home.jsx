@@ -25,7 +25,7 @@ const Home = () => {
         data={heroSliderData}
         control={true}
         auto={true}
-        timeOut={5000}
+        timeOut={4500}
       />
       {/* end hero slider */}
 
