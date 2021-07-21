@@ -17,11 +17,12 @@
   &__item {
     @include flex(center, space-between);
 
+    height: 100%;
+    width: 100%;
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
     position: absolute;
-    inset: 0;
 
     @include tablet {
       flex-direction: column-reverse;
