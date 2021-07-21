@@ -5,24 +5,24 @@ import logo from "../assets/images/Logo-2.png";
 
 const mainNav = [
   {
-    display: "Trang chủ",
+    display: "Home",
     // path: "/",
-    path: "/nobita_home_website",
+    path: "/nike_webshop",
   },
   {
-    display: "Sản phẩm",
+    display: "Product",
     // path: "/catalog",
-    path: "/nobita_home_website",
+    path: "/nike_webshop",
   },
   {
-    display: "Phụ kiện",
+    display: "About",
     // path: "/accessories",
-    path: "/nobita_home_website",
+    path: "/nike_webshop",
   },
   {
-    display: "Liên hệ",
+    display: "Contact",
     // path: "/contact",
-    path: "/nobita_home_website",
+    path: "/nike_webshop",
   },
 ];
 
@@ -88,7 +88,7 @@ const Header = () => {
             </div>
             <div className="header__menu__item header__menu__right__item">
               {/* <Link to="/cart"> */}
-              <Link to="/nobita_home_website">
+              <Link to="/nike_webshop">
                 <i className="bx bx-shopping-bag"></i>
               </Link>
             </div>

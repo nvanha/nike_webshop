@@ -10,4 +10,10 @@
     text-transform: capitalize;
     text-align: center;
   }
+
+  &__body {
+    img {
+      margin: 0 auto;
+    }
+  }
 }

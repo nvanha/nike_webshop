@@ -80,21 +80,23 @@ const HeroSliderItem = (props) => (
       </div>
       <div className="hero-slider__item__info__btn">
         {/* <Link to={props.item.path}> */}
-        <Link to="nobita_home_website">
+        <Link to="/nike_webshop">
           <Button
             backgroundColor={props.item.color}
             icon="bx bx-cart"
             animate={true}
             size="sm"
           >
-            Xem chi tiết
+            More
           </Button>
         </Link>
       </div>
     </div>
     <div className="hero-slider__item__image">
       <div className={`shape bg-${props.item.color}`}></div>
-      <img src={props.item.img} alt={props.item.name} />
+      <div className="img-wrapper">
+        <img src={props.item.img} alt={props.item.name} />
+      </div>
     </div>
   </div>
 );

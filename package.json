@@ -1,8 +1,8 @@
 {
-  "name": "nobita_home_website",
+  "name": "nike_webshop",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nvanha.github.io/nobita_home_website/",
+  "homepage": "https://nvanha.github.io/nike_webshop/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",

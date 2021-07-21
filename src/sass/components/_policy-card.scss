@@ -1,5 +1,6 @@
 .policy-card {
   @include flex(center, flex-start);
+  height: 100%;
   padding: 20px;
   padding-left: 0;
   box-shadow: $box-shadow;
@@ -24,11 +25,13 @@
       font-size: 1.25rem;
       font-weight: 600;
       margin-bottom: 10px;
+      text-transform: uppercase;
     }
 
     &__description {
       font-size: 1rem;
       color: $txt-second-color;
+      text-transform: capitalize;
     }
   }
 }

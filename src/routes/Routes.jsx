@@ -10,10 +10,10 @@ import Product from "../pages/Product";
 const Routes = () => {
   return (
     <Switch>
-      <Route path="/nobita_home_website" exact component={Home} />
-      <Route path="/nobita_home_website/catalog/:slug" component={Product} />
-      <Route path="/nobita_home_website/catalog" component={Catalog} />
-      <Route path="/nobita_home_website/cart" component={Cart} />
+      <Route path="/nike_webshop" exact component={Home} />
+      <Route path="/nike_webshop/catalog/:slug" component={Product} />
+      <Route path="/nike_webshop/catalog" component={Catalog} />
+      <Route path="/nike_webshop/cart" component={Cart} />
     </Switch>
   );
 };

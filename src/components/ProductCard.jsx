@@ -11,22 +11,22 @@ const ProductCard = (props) => {
   return (
     <div className="product-card">
       {/* <Link to={`/catalog/${props.slug}`}> */}
-      <Link to="nobita_home_website">
+      <Link to="/nike_webshop">
         <div className="product-card__image">
           <img src={props.img01} alt={props.name} />
           <img src={props.img02} alt={props.name} />
         </div>
         <h3 className="product-card__name">{props.name}</h3>
         <div className="product-card__price">
-          {numberWithCommas(props.price)}
+          ${numberWithCommas(props.price)}
           <span className="product-card__price__old">
-            <del>{numberWithCommas(399000)}</del>
+            <del>${numberWithCommas(500)}</del>
           </span>
         </div>
       </Link>
       <div className="product-card__btn">
         <Button size="sm" icon="bx bx-card" animate={true}>
-          Chọn mua
+          Buy
         </Button>
       </div>
     </div>

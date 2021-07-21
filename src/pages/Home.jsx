@@ -13,11 +13,13 @@ import heroSliderData from "../assets/fake-data/hero-slider";
 import policy from "../assets/fake-data/policy";
 import productData from "../assets/fake-data/products";
 
-import banner from "../assets/images/banner.png";
+import banner1 from "../assets/images/banner-1.jpg";
+import banner2 from "../assets/images/banner-2.png";
+import banner3 from "../assets/images/banner-3.jpg";
 
 const Home = () => {
   return (
-    <Helmet title="Trang chủ">
+    <Helmet title="Home">
       {/* hero slider */}
       <HeroSlider
         data={heroSliderData}
@@ -27,13 +29,24 @@ const Home = () => {
       />
       {/* end hero slider */}
 
+      {/* banner */}
+      <Section>
+        <SectionBody>
+          {/* <Link to="/nike_webshop/catalog"> */}
+          <Link to="/nike_webshop">
+            <img src={banner1} alt="" />
+          </Link>
+        </SectionBody>
+      </Section>
+      {/* end banner */}
+
       {/* policy section */}
       <Section>
         <SectionBody>
           <Grid col={4} mdCol={2} smCol={1} gap={20}>
             {policy.map((item, index) => (
-              // <Link key={index} to="/nobita_home_website/policy">
-              <Link key={index} to="/nobita_home_website">
+              // <Link key={index} to="/nike_webshop/policy">
+              <Link key={index} to="/nike_webshop">
                 <PolicyCard
                   name={item.name}
                   description={item.description}
@@ -48,7 +61,7 @@ const Home = () => {
 
       {/* best selling section */}
       <Section>
-        <SectionTitle>Top sản phẩm bán chạy trong tuần</SectionTitle>
+        <SectionTitle>The Latest And Greatest</SectionTitle>
         <SectionBody>
           <Grid col={4} mdCol={2} smCol={1} gap={20}>
             {productData.getProducts(4).map((item, index) => (
@@ -69,9 +82,9 @@ const Home = () => {
       {/* banner */}
       <Section>
         <SectionBody>
-          {/* <Link to="/nobita_home_website/catalog"> */}
-          <Link to="/nobita_home_website">
-            <img src={banner} alt="" />
+          {/* <Link to="/nike_webshop/catalog"> */}
+          <Link to="/nike_webshop">
+            <img src={banner3} alt="" />
           </Link>
         </SectionBody>
       </Section>
@@ -79,7 +92,7 @@ const Home = () => {
 
       {/* popular product section */}
       <Section>
-        <SectionTitle>Phổ biến</SectionTitle>
+        <SectionTitle>More to Explore</SectionTitle>
         <SectionBody>
           <Grid col={4} mdCol={2} smCol={1} gap={20}>
             {productData.getProducts(12).map((item, index) => (
@@ -96,6 +109,17 @@ const Home = () => {
         </SectionBody>
       </Section>
       {/* end popular product section */}
+
+      {/* banner */}
+      <Section>
+        <SectionBody>
+          {/* <Link to="/nike_webshop/catalog"> */}
+          <Link to="/nike_webshop">
+            <img src={banner2} alt="" />
+          </Link>
+        </SectionBody>
+      </Section>
+      {/* end banner */}
     </Helmet>
   );
 };

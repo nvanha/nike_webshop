@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const Helmet = (props) => {
-  document.title = "Yolo - " + props.title;
+  document.title = "Nike - " + props.title;
 
   return <div>{props.children}</div>;
 };
