@@ -11,8 +11,7 @@ const mainNav = [
   },
   {
     display: "Product",
-    // path: "/catalog",
-    path: "/nike_webshop",
+    path: "/nike_webshop/catalog",
   },
   {
     display: "About",
