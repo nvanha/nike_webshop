@@ -4,7 +4,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 200;
+  z-index: 99;
   height: $header-height;
   transition: height 0.3s ease;
 
@@ -117,7 +117,6 @@
         padding-top: 30px;
         transform: translateX(-100%);
         transition: transform 0.5s ease;
-        z-index: 200;
 
         &.active {
           transform: translateX(0);

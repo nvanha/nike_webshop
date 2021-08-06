@@ -4,8 +4,8 @@ const colors = [
     color: "white",
   },
   {
-    display: "Pink",
-    color: "pink",
+    display: "Red",
+    color: "red",
   },
   {
     display: "Black",

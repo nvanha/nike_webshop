@@ -86,8 +86,7 @@ const Header = () => {
               <i className="bx bx-search"></i>
             </div>
             <div className="header__menu__item header__menu__right__item">
-              {/* <Link to="/cart"> */}
-              <Link to="/nike_webshop">
+              <Link to="/nike_webshop/cart">
                 <i className="bx bx-shopping-bag"></i>
               </Link>
             </div>
