@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/nike_webshop/static/css/main.88700304.chunk.css",
-    "main.js": "/nike_webshop/static/js/main.ddaa5f3b.chunk.js",
-    "main.js.map": "/nike_webshop/static/js/main.ddaa5f3b.chunk.js.map",
-    "runtime-main.js": "/nike_webshop/static/js/runtime-main.f0b30d44.js",
-    "runtime-main.js.map": "/nike_webshop/static/js/runtime-main.f0b30d44.js.map",
-    "static/js/2.a75c65ed.chunk.js": "/nike_webshop/static/js/2.a75c65ed.chunk.js",
-    "static/js/2.a75c65ed.chunk.js.map": "/nike_webshop/static/js/2.a75c65ed.chunk.js.map",
-    "static/js/3.728a8121.chunk.js": "/nike_webshop/static/js/3.728a8121.chunk.js",
-    "static/js/3.728a8121.chunk.js.map": "/nike_webshop/static/js/3.728a8121.chunk.js.map",
+    "main.css": "/nike_webshop/static/css/main.c8c346f7.chunk.css",
+    "main.js": "/nike_webshop/static/js/main.c38e43a9.chunk.js",
+    "main.js.map": "/nike_webshop/static/js/main.c38e43a9.chunk.js.map",
+    "runtime-main.js": "/nike_webshop/static/js/runtime-main.951841ca.js",
+    "runtime-main.js.map": "/nike_webshop/static/js/runtime-main.951841ca.js.map",
+    "static/js/2.0d095cc3.chunk.js": "/nike_webshop/static/js/2.0d095cc3.chunk.js",
+    "static/js/2.0d095cc3.chunk.js.map": "/nike_webshop/static/js/2.0d095cc3.chunk.js.map",
+    "static/js/3.d6963ec2.chunk.js": "/nike_webshop/static/js/3.d6963ec2.chunk.js",
+    "static/js/3.d6963ec2.chunk.js.map": "/nike_webshop/static/js/3.d6963ec2.chunk.js.map",
     "index.html": "/nike_webshop/index.html",
-    "static/css/main.88700304.chunk.css.map": "/nike_webshop/static/css/main.88700304.chunk.css.map",
-    "static/js/2.a75c65ed.chunk.js.LICENSE.txt": "/nike_webshop/static/js/2.a75c65ed.chunk.js.LICENSE.txt",
+    "static/css/main.c8c346f7.chunk.css.map": "/nike_webshop/static/css/main.c8c346f7.chunk.css.map",
+    "static/js/2.0d095cc3.chunk.js.LICENSE.txt": "/nike_webshop/static/js/2.0d095cc3.chunk.js.LICENSE.txt",
     "static/media/Logo-2.bb947760.png": "/nike_webshop/static/media/Logo-2.bb947760.png",
     "static/media/banner-1.497fc43e.jpg": "/nike_webshop/static/media/banner-1.497fc43e.jpg",
     "static/media/banner-2.3f4fa30e.png": "/nike_webshop/static/media/banner-2.3f4fa30e.png",
@@ -46,9 +46,9 @@
     "static/media/slider_3.png": "/nike_webshop/static/media/slider_3.4c8ae79a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f0b30d44.js",
-    "static/js/2.a75c65ed.chunk.js",
-    "static/css/main.88700304.chunk.css",
-    "static/js/main.ddaa5f3b.chunk.js"
+    "static/js/runtime-main.951841ca.js",
+    "static/js/2.0d095cc3.chunk.js",
+    "static/css/main.c8c346f7.chunk.css",
+    "static/js/main.c38e43a9.chunk.js"
   ]
 }
