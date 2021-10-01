@@ -1,13 +1,24 @@
 import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
-
+import { useDispatch } from "react-redux";
+import { addItem } from "../redux/shopping-cart/cartItemSlice";
 import { withRouter } from "react-router";
 
 import Button from "./Button";
 import numberWithCommas from "../utils/numberWithCommas";
 
 const ProductView = (props) => {
-  const { product } = props;
+  const dispatch = useDispatch();
+
+  let { product } = props;
+
+  if (product === undefined)
+    product = {
+      price: 0,
+      title: "",
+      colors: [],
+      size: [],
+    };
 
   const [previewImg, setPreviewImg] = useState(product.image01);
 
@@ -47,11 +58,34 @@ const ProductView = (props) => {
   };
 
   const addToCart = () => {
-    if (check()) console.log({ color, size, quantity });
+    if (check()) {
+      // console.log({ color, size, quantity })
+      dispatch(
+        addItem({
+          slug: product.slug,
+          color,
+          size,
+          quantity,
+          price: product.price,
+        })
+      );
+      alert("success");
+    }
   };
 
   const goToCart = () => {
-    if (check()) props.history.push("/nike_webshop/cart");
+    if (check()) {
+      dispatch(
+        addItem({
+          slug: product.slug,
+          color,
+          size,
+          quantity,
+          price: product.price,
+        })
+      );
+      props.history.push("/nike_webshop/cart");
+    }
   };
 
   return (
@@ -191,7 +225,7 @@ const ProductView = (props) => {
 };
 
 ProductView.propTypes = {
-  product: PropTypes.object.isRequired,
+  product: PropTypes.object,
 };
 
 export default withRouter(ProductView);
